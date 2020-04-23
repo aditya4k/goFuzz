@@ -1,6 +1,6 @@
 package main
 
-import "fuzzMe/commands"
+import "github.com/goFuzz/commands"
 
 func main() {
 	commands.Execute()

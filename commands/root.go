@@ -7,18 +7,12 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var (
-	userLicense string
-	verbose     bool
-	times       int
-)
-
 var rootCmd = &cobra.Command{
-	Use:   "fuzzme [fuzz, bypass, insert-fuzz, insert-bypass]",
-	Short: "fuzzme is used for fuzzing and bypassing the WAF",
-	Long: `fuzzme is a client app which can be used by the user to get the
+	Use:   "fuzzWAF [fuzz, bypass, insert-fuzz, insert-bypass]",
+	Short: "fuzzWAF is used for fuzzing and bypassing the WAF",
+	Long: `fuzzWAF is a client cli which can be used by the user to get the
 		payload that can bypass the WAF. You can fuzz the webapp or website
-		and get the payload that can be send to these websites to bypass the
+		and get the keywords that can be send to these websites to bypass the
 		Web Application Firewall.`,
 	Args: cobra.MinimumNArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
