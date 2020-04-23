@@ -1,3 +1,5 @@
+[![Build Status][build-badge]][build-url] [![Go Report Card][goreport-card-badge]][goreport-card] [![Go Coverage][codecov-card-badge]][codecov-card]
+
 # goFuzz
 This is an client server solution to find out the payloads that can be used to bypass
 Web Application Firewall. Client can use the cli to make the request to server to retrieve
