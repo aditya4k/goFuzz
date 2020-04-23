@@ -27,5 +27,6 @@ go dependency is not set up for the project:
 
 ## Contributing
 
-[build-badge]:     https://github.com/aditya4k/goFuzz/workflows/Linux/badge.svg
+
+[build-badge]:     https://github.com/aditya4k/goFuzz/workflows/Go/badge.svg
 [build-url]:       https://github.com/aditya4k/goFuzz/actions?query=branch%3Amaster+workflow%3ALinux
