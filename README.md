@@ -1,4 +1,4 @@
-[![Build Status][build-badge]][build-url] [![Go Report Card][goreport-card-badge]][goreport-card] [![Go Coverage][codecov-card-badge]][codecov-card]
+[![Build Status][build-badge]][build-url]
 
 # goFuzz
 This is an client server solution to find out the payloads that can be used to bypass
@@ -27,3 +27,5 @@ go dependency is not set up for the project:
 
 ## Contributing
 
+[build-badge]:     https://github.com/aditya4k/goFuzz/workflows/Linux/badge.svg
+[build-url]:       https://github.com/aditya4k/goFuzz/actions?query=branch%3Amaster+workflow%3ALinux
